@@ -1,22 +1,30 @@
-/*  your css code here. If applicable */
 .container{
 	width:50%;
+	margin: 0 auto; /* FIX: centers container */
 	text-align:center;
-	border-radius:50%;
 	background-color:grey;
+	border: 2px solid black; /* FIX: border */
+	padding: 20px; /* FIX: padding */
+	box-sizing: border-box;
 }
 .green{
-	display:inline;
+	display:inline-block; /* FIX: inline ignores width */
 	width:50%;
+	aspect-ratio: 1 / 1; /* makes height = width so circle is perfect */
 	background-color:green;
+	border-radius:50%; /* FIX: makes block circular */
 }
 .red{
-	display:inline;
+	display:inline-block;
 	width:50%;
+	aspect-ratio: 1 / 1;
 	background-color:red;
+	border-radius:50%;
 }
 .yellow{
-	display:inline;
+	display:inline-block;
+	width:50%;
+	aspect-ratio: 1 / 1;
 	background-color:yellow;
-	width:50%
+	border-radius:50%;
 }
