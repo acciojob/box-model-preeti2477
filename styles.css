@@ -2,7 +2,7 @@
 .container{
 	width:50%;
 	text-align:center;
-	border-radius:round;
+	border-radius:50%;
 	background-color:grey;
 }
 .green{
