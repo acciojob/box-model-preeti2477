@@ -2,18 +2,21 @@
 .container{
 	width:50%;
 	text-align:center;
-	border:round;
+	border-radius:round;
 	background-color:grey;
 }
 .green{
 	display:inline;
-	width:50%
+	width:50%;
+	background-color:green;
 }
 .red{
 	display:inline;
-	width:50%
+	width:50%;
+	background-color:red;
 }
 .yellow{
 	display:inline;
+	background-color:yellow;
 	width:50%
 }
